@@ -1,4 +1,5 @@
 // src/App.tsx
+import About from './components/About/About'
 import Hero from './components/Hero/Hero'
 // import About from './components/About/About'
 // import FeatureCards from './components/FeatureCards/FeatureCards'
@@ -8,7 +9,8 @@ function App() {
   return (
     <main>
       <Hero />
-      {/* <About />
+       <About />
+       {/*
       <FeatureCards />
       <Footer /> */}
     </main>
