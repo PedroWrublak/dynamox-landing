@@ -1,7 +1,16 @@
+// src/App.tsx
+import Hero from './components/Hero/Hero'
+// import About from './components/About/About'
+// import FeatureCards from './components/FeatureCards/FeatureCards'
+// import Footer from './components/Footer/Footer'
+
 function App() {
   return (
     <main>
-      <h1>Dynamox Landing</h1>
+      <Hero />
+      {/* <About />
+      <FeatureCards />
+      <Footer /> */}
     </main>
   )
 }
